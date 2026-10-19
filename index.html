@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games for Little Kids</title>
+<meta name="description" content="Free browser games for ages 4–6. No ads, no sign-up, works on phones and tablets.">
+<style>
+  :root {
+    --bg: #fdf8ef;
+    --card: #ffffff;
+    --text: #2b2b2b;
+    --muted: #5f5a52;
+    --link: #1f5fbf;
+    --border: #eadfcb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1b19;
+      --card: #272522;
+      --text: #f2eee6;
+      --muted: #b8b0a3;
+      --link: #8ab8ff;
+      --border: #3a3631;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2.5rem 16px 3rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+  }
+  .intro {
+    color: var(--muted);
+    margin: 0 0 2rem;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  li a {
+    display: block;
+    padding: 1.1rem 1.25rem;
+    background: var(--card);
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    color: var(--text);
+    text-decoration: none;
+  }
+  li a:hover, li a:focus-visible {
+    border-color: var(--link);
+  }
+  .name {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--link);
+  }
+  .desc {
+    display: block;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Games for Little Kids</h1>
+  <p class="intro">Free browser games for ages 4–6. No ads, no sign-up, works on phones and tablets.</p>
+  <ul>
+    <li>
+      <a href="/word-train/">
+        <span class="name">Word Train</span>
+        <span class="desc">Tap the word that matches the picture to speed the train to the next station.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/abc-balloon-pop/">
+        <span class="name">ABC Balloon Pop</span>
+        <span class="desc">Tie letter balloons to the basket in order and watch it fly away.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/ball-machine/">
+        <span class="name">Ball Machine</span>
+        <span class="desc">A drag-and-drop physics puzzle: help the ball into the bucket.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/space-explorer/">
+        <span class="name">Space Explorer</span>
+        <span class="desc">A gentle top-down space puzzle.</span>
+      </a>
+    </li>
+  </ul>
+</main>
+</body>
+</html>
